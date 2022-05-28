@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="audio.css">
+    
+    <title>Tarea 7 DEW María Aránzazu Afonso Santana</title>
+</head>
+<body>
+    <head>
+        <title>AudioPlayer</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    </head>
+    <body>
+        <form id="audioPlayer">
+            <div>
+                <button id="back" type="button">&lt;&lt;</button>
+                <button id="stop" type="button">Stop</button>
+                <button id="pause" type="button">Pause</button>
+                <button id="play" type="button">Play</button>
+                <button id="forward" type="button">&gt;&gt;</button>
+            </div>
+            <div>
+                <button id="volumeUp" type="button">Volume Up</button>
+                <button id="volumeDown" type="button">Volume Down</button>
+                <button id="mute" type="button">Mute</button>
+            </div>
+            <div>
+                Volume: <input type="range" id="volume" min="0" max="10" value="10" />
+            </div>
+            <div>
+                Song: <span id="title"></span>
+            </div>
+            <div>
+                Time: <span id="currentTime"></span>/<span id="duration"></span>
+            </div>
+            <div>
+                Position: <input type="range" id="position" min="0" value="0" />
+            </div>
+        </form>
+    <script src="audio.js"></script>
+</body>
+</html>

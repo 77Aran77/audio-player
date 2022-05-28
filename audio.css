@@ -1,0 +1,22 @@
+body {
+  
+  width : 300px;
+margin-left : auto;
+margin-right : auto;
+padding : 02px;
+  }
+
+  #audioPlayer{
+    
+    text-align: center;
+    background: rgb(222,132,171);
+    background: radial-gradient(circle, rgba(222,132,171,1) 34%, rgba(148,187,233,1) 76%);
+  }
+
+button{
+
+background-color: aliceblue;
+color: darkmagenta;
+border-color:blueviolet;
+border-radius: 5px;
+}
